@@ -31,7 +31,7 @@ ini_set('display_errors', 1);
         if (is_file($imageDirectory . '/' . $file) && preg_match('/\.(jpg|jpeg|png|gif)$/i', $file)) {
             // Output the HTML img tag with the file path
             echo '<div class="col-4">';
-            echo '<div class="card mx-2 my-2">';
+            echo '<div class="card mx-4 my-4">';
             echo '<img class="card-img-top" src="' . $imageDirectory . '/' . $file . '" alt="' . $file . '" />';
             echo '</div>';
             echo '</div>';

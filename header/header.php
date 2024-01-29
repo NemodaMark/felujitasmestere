@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>HomlokzatHőse</title>
-        <link rel="icon" type="image/x-icon" href="imgs/site_icon.ico">
+        <link rel="icon" type="image/x-icon" href="imgs/3.ico">
         <!-- Linking start -->
             <!-- Bootstrap start -->
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
@@ -13,18 +13,23 @@
             
         <!-- Linking end -->
     </head>
-    <body style="background-color:#fbfbf2; font-family:Copperplate;">
+    <body style="background-color:#fbfbf2; font-family:Serif;">
         <!-- Navbar start -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.php">HomlokzatHőse</a>
+            <a class="navbar-brand" href="#">
+              <img src="imgs\3-removebg.png" alt="Bootstrap" width="90" height="90">
+            </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.php" style="font-size: 20px;">Főoldal</a>
+                  </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="galery.php">Galéria</a>
+                    <a class="nav-link active" aria-current="page" href="galery.php" style="font-size: 20px;">Galéria</a>
                   </li>
               </div>
             </div>

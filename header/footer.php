@@ -2,7 +2,7 @@
                 </div>
         </div>
 <!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="d-flex flex-column min-vh-100">
+<div class="d-flex flex-column">
 
     <footer class="mt-auto" style="background-color: #deded5;">
     <div class="container p-4">
