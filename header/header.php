@@ -17,8 +17,8 @@
         <!-- Navbar start -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-              <img src="imgs\3-removebg.png" alt="Bootstrap" width="90" height="90">
+            <a class="navbar-brand" href="try2.php">
+              <img src="imgs\3-removebg.png" alt="" width="90" height="90">
             </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,9 @@
             </div>
           </nav>
         <!-- Navbar end -->
-
+        <video autoplay muted loop id="myVideo">
+          <source src="rain.mp4" type="video/mp4">
+        </video>
         <div class="content">
-            <div class="container" >
+            <div class="container">
                 <!-- Content start -->
