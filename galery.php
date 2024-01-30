@@ -12,12 +12,16 @@ ini_set('display_errors', 1);
         width: auto; /* Let the width adjust automatically to maintain aspect ratio */
         object-fit: cover; /* Ensure the image covers the entire space */
         border-radius: 5px;
+        border: 0.25px solid #eddcd2;
+        box-shadow: 9px 9px 10px 2px rgba(198,172,143,0.76);
+        -webkit-box-shadow: 9px 9px 10px 2px rgba(198,172,143,0.76);
+        -moz-box-shadow: 9px 9px 10px 2px rgba(198,172,143,0.76);
     }
 </style>
 
 
 <div class="row">
-    <h3 class="text-center">Képek a munkáinkról</h3>
+    <h1 class="text-center my-4 mx-4">Képek a munkáinkról</h1>
     <?php
     // Specify the directory where your images are located
     $imageDirectory = "imgs/workphotos";
