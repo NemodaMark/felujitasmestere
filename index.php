@@ -182,7 +182,7 @@
 <!-- Innováció és Minőség -->
 <div class="row my-4 mx-4">
     <div class="col-md-4 d-flex justify-content-center align-items-center">
-        <img src="imgs/workphotos/421114613_1096504034718153_667732951181172287_n.jpg" alt="" class="img-fluid">
+        <img src="imgs/workphotos/419046297_356794617209758_6369276999533124178_n.jpg" alt="" class="img-fluid">
     </div>
     <div class="col-md-8 my-4 d-flex align-items-center">
         <div>
