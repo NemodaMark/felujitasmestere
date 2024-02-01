@@ -59,14 +59,94 @@
             width: 100%;
             position: relative;
         }
+
+        .header-text{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                white-space: nowrap;
+                text-align: center;
+                font-size: 400px; 
+            }
+
+        /* Responsive adjustments */
+        @media screen and (max-aspect-ratio: 9/16) {
+            #myVideo {
+                height: 100%;
+                width: auto;
+            }
+
+            .header-text{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                text-align: center;
+                font-size: 400px; /* Responsive font size */
+                white-space: normal;
+            }
+            
+        }
+
+        /* Solution 2 */
+        @media screen and (max-aspect-ratio: 16/9) {
+          .col-3 {
+            width: 100%;
+          }
+        }
     </style>
     <!-- Linking end -->
+    <script>
+        // Check if the aspect ratio is 9:16 or smaller
+        if (window.matchMedia("(max-aspect-ratio: 9/16)").matches) {
+            // Get the header text element
+            var headerText = document.getElementById("headerText");
+
+            // Update the text content with a line break after ":"
+            headerText.innerHTML = "FelújításMestere:<br>Az otthonod védelmezője";
+        }
+    </script>
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16451351326"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'AW-16451351326');
+        </script>
+
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16451351326">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16451351326');
+</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16451351326"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-16451351326');
+</script>
+
 </head>
 <body>
 
-<video autoplay muted loop id="myVideo">
+<!-- <video autoplay muted loop id="myVideo">
     <source src="imgs/renovating.mp4" type="video/mp4">
-</video>
+</video> -->
 
 <!-- Navbar start -->
 <nav class="navbar navbar-expand-lg ">
@@ -90,8 +170,13 @@
     </div>
 </nav>
 <!-- Navbar end -->
-<div class="position-absolute top-50 start-50 translate-middle" style="color: white; white-space: nowrap;">
-    <h2 style="font-size:95px;">FelújításMestere: Az otthonod védelmezője</h2>
+<div class="container-fluid">
+    <video autoplay muted loop id="myVideo" class="video-responsive">
+        <source src="imgs/renovating.mp4" type="video/mp4">
+    </video>
+    <div class="header-text d-flex justify-content-center align-items-center">
+    <h2 class="text-light text-center">FelújításMestere: Az otthonod védelmezője</h2>
+</div>
 </div>
 <!-- Content -->
 <div class="content">
@@ -135,7 +220,9 @@
     <div class="col-md-8 my-4 d-flex align-items-center">
         <div>
             <h1 class="my-4 mx-4">Tapasztalat és Megbízhatóság</h1>
-            <h5 class="text-muted">26 Éves Tapasztalat: FelújításMestere 26 éve áll az építőipari és renovációs szakma élén. Ebben az időszakban számos kihívással találkoztak és sikeresen megoldották azokat, így megszerzették a szakma elismerését és bizalmát.</h5>
+            <h5 class="text-muted">26 Éves Tapasztalat: FelújításMestere 26 éve áll az építőipari és renovációs szakma élén. Ebben az időszakban számos kihívással találkozt
+
+ak és sikeresen megoldották azokat, így megszerzették a szakma elismerését és bizalmát.</h5>
         </div>
     </div>
 </div>
@@ -208,7 +295,9 @@
                 <tr><td>Hideg/Meleg burkolás</td></tr>
                 <tr><td>Festés</td></tr>
                 <tr><td>Mázolás</td></tr>
-                <tr><td>Tapétázás</td></tr>
+                <tr><td>Tapétázás</td></
+
+tr>
                 <tr><td>Kőműves területekis</td></tr>
                 <tr><td>Kisebb/Nagyobb javítások és felújjítások</td></tr>
             </tbody>
@@ -244,10 +333,10 @@
         <div class="col-lg-6 col-md-12 mb-4">
           <h5 class="mb-3" style="letter-spacing: 2px; color: #818963;">rólunk</h5>
           <p> <small>
-          FelújításMestere  egy elkötelezett lakásfelújító cég, mely a minőségi munka és az ügyfél elégedettsége iránti elkötelezettséget képviseli. 
+          Homlokzat Hőse egy elkötelezett lakásfelújító cég, mely a minőségi munka és az ügyfél elégedettsége iránti elkötelezettséget képviseli. 
           Tapasztalt csapatunk odaadással és precizitással dolgozik az ügyfelek elképzeléseinek megvalósításán. 
           Szolgáltatásaink közé tartozik festés, beltéri átalakítások, fürdőszobafelújítások és konyhai újítások tervezése és kivitelezése. 
-          Bízzon meg a FelújításMestere , ha minőségi munkát és megbízható szolgáltatást keres!
+          Bízzon meg a Homlokzat Hősében, ha minőségi munkát és megbízható szolgáltatást keres!
           </small> </p>
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
@@ -302,15 +391,12 @@
     </div>
     <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
       © 2024 Copyright:
-      <a class="text-dark" href="">FelújításMestere</a>
+      <a class="text-dark" href="">Hendre Gyula</a>
     </div>
     <!-- Copyright -->
   </footer>
   
 </div>
-<!-- End of .container -->
-    </body>
+</body>
 </html>
-
-<!-- A) HomlokzatHőse: Az otthonod védelmezője -->
-<!-- B) Hendre gyula és kisadózó: Az otthonod felfrissítője -->
+```
