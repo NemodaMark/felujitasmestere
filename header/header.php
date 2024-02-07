@@ -61,6 +61,12 @@
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="galery.php" style="font-size: 20px;">Galéria</a>
                   </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="prices.php" style="font-size: 20px;">Áraink</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="" style="font-size: 20px;"></a>
+                  </li>
               </div>
             </div>
           </nav>

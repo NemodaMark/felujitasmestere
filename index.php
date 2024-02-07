@@ -159,12 +159,22 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- Főoldal -->
                 <li class="nav-item">
                     <a class="nav-link active text-light" aria-current="page" href="index.php">Főoldal</a>
                 </li>
+                <!-- Galéria -->
                 <li class="nav-item">
                     <a class="nav-link active text-light" aria-current="page" href="galery.php">Galéria</a>
                 </li>
+                <!-- Áraink -->
+                <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="prices.php" style="font-size: 20px;">Áraink</a>
+                  </li>
+                  <!-- Keress fel! -->
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="" style="font-size: 20px;"></a>
+                  </li>
             </ul>
         </div>
     </div>
@@ -295,9 +305,7 @@ ak és sikeresen megoldották azokat, így megszerzették a szakma elismerését
                 <tr><td>Hideg/Meleg burkolás</td></tr>
                 <tr><td>Festés</td></tr>
                 <tr><td>Mázolás</td></tr>
-                <tr><td>Tapétázás</td></
-
-tr>
+                <tr><td>Tapétázás</td></tr>
                 <tr><td>Kőműves területekis</td></tr>
                 <tr><td>Kisebb/Nagyobb javítások és felújjítások</td></tr>
             </tbody>

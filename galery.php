@@ -23,9 +23,6 @@ ini_set('display_errors', 1);
         border-radius: 5px 5px 0 0; /* Rounded corners on top */
     }
 </style>
-
-
-<div class="container">
     <h1 class="text-center my-4">Képek a munkáinkról</h1>
     <div class="row">
         <?php
@@ -81,4 +78,4 @@ ini_set('display_errors', 1);
     </div>
 </div>
 
-<?php include_once("Header/footer.php"); ?>
+<?php include_once("header/footer.php"); ?>
