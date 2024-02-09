@@ -15,7 +15,7 @@ require 'PHPMailer/src/SMTP.php';
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
-    $to = 'nemodaongame@gmail.com'; // Replace with your email address
+    $to = 'testmail.com'; // Replace with your email address
     $subject = $_POST['subject'] ?? ''; // Use null coalescing operator to set default value if not set
     $message = $_POST['message'] ?? ''; // Use null coalescing operator to set default value if not set
     $email = $_POST['email'] ?? ''; // Use null coalescing operator to set default value if not set
