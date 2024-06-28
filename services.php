@@ -2,23 +2,11 @@
 <?php require_once 'marginalia\header.php';?>
 <!-- header end -->
 
-<!-- content start -->
-    <!-- banner start -->
-    <div class="banner text-light my-5" >
-        <br><br>
-            <h1 class="my-4 mx-4 pt-2 text-center">Lakás felújítása A-tól Z-ig</h1>
-            <P class="my-3 mx-3 text-center" style="font-size:1.3rem">Tapasztalt csapatunk mindenre kiterjedő lakásfelújítást kínál, hogy otthonod teljes mértékben megfeleljen a modern igényeknek.</P>
-        <br>
-            <P class="my-4 mx-4 pb-2 text-center" style="font-size:1.9rem"><a href="tel:06304434011" class="text-light" style="text-decoration:none;">
-            <svg xmlns="http://www.w3.org/2000/svg" width="1.7rem" height="1.7rem" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
-            </svg>    
-            06 30 443 4011</a></P>
-        </div>
-        <!-- banner ends -->
-         <div class="container">
+        <!-- contetn start -->
+        <div class="container">
             <div class="content-fluid">
-                <p class="text-muted mx-2 my-3">FelújításMestere egy meghatározó szereplő az építőipari és renovációs szektorban, mely már 26 éve szolgálja ügyfeleit magas színvonalú szolgáltatásaival. A cég pályafutását külföldön kezdte, majd a külföldi trendeket sikeresen átültette Magyarországra, így váltva a hazai piacon elismert szakértővé és megbízható partnerré.</p>
+                <h3 class="text-center">Szolgáltatásaink </h3>
+                <p class="text-muted mx-2 my-3">26 Éves Tapasztalat: FelújításMestere 26 éve áll az építőipari és renovációs szakma élén. Ebben az időszakban számos kihívással találkozt ak és sikeresen megoldották azokat, így megszerzették a szakma elismerését és bizalmát.</p>
                 <!-- card group start -->
                 <div class="card-group">
                     <!-- to private individuals start -->
@@ -194,43 +182,12 @@
                     </div>
                     <!-- for companies end -->
                 </div>
+            </div>
+        </div>
                 <!-- card group end -->
 
-                <p class="text-muted mx-2 my-3">FelújításMestere büszkén állítja, hogy csapatában olyan kiváló szakemberek dolgoznak, akik rendelkeznek a szükséges tapasztalattal és szaktudással az építőipar és renováció terén. Minden projektjüket a legmagasabb színvonalon végzik el.</p>
-
-                <!-- unique offer start -->
-                    <div class="card mx-2 my-4">
-                        <div class="card-body text-center bg-light">
-                            <h4 class="card-title">Kérjen most egyedi ajánlatot!</h4>
-                            <p class="card-text">Keressen minket bizalommal és egy állapot felmérés után egy remek ajánlatot adunk önnek</p>
-                            <a href="contact.php" class="btn btn-primary">Kérem az ajánlatom!</a>
-                        </div>
-                    </div>
-                </div>
-                <!-- unique offer end -->
-
-                <!-- refferences start -->
-                    <h4 class="text-center">Refferenciáink</h4>
-                    <div class="row">
-                            <img src="visual_assets/workphotos/refferences/1.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                            <img src="visual_assets/workphotos/refferences/2.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                            <img src="visual_assets/workphotos/refferences/3.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                            <img src="visual_assets/workphotos/refferences/4.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                            <img src="visual_assets/workphotos/refferences/5.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                            <img src="visual_assets/workphotos/refferences/6.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                            <img src="visual_assets/workphotos/refferences/7.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                            <img src="visual_assets/workphotos/refferences/8.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                            <img src="visual_assets/workphotos/refferences/9.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                            <img src="visual_assets/workphotos/refferences/10.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                            <img src="visual_assets/workphotos/refferences/11.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                            <img src="visual_assets/workphotos/refferences/12.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                    </div>
-                <!-- refferences end -->
-
-            </div>
-         </div>
 <!-- content end -->
-   
+
 <!-- footer start -->
 <?php require_once 'marginalia\footer.php';?>
 <!-- footer end -->
