@@ -41,9 +41,16 @@
             object-fit: cover;
             border-radius: 25px;
         }
+        .reff-x{
+            height:8rem;
+            width: 8rem;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
     </style>
   <!-- style end -->
-
+    <div class="alert alert-warning text-center" role="alert">Vállalkozásunk készen áll az <a href="homerenow2024.php" class="alert-link">Otthonfelújítási Támogatás</a> keretében történő munkák elvégzésére!</div>
     <!-- navbar start -->
     <nav class="navbar bg-light sticky-top">
   <div class="container-fluid">
@@ -58,6 +65,9 @@
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+        <li class="nav-item">
+            <a class="nav-link active fs-5 mb-2" aria-current="page" href="homerenow2024.php">Otthonfelújítási támogatás</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.php">Főoldal</a>
           </li>

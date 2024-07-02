@@ -1,5 +1,5 @@
 <!-- header start -->
-<?php require_once 'marginalia\header.php';?>
+<?php require_once 'marginalia/header.php';?>
 <!-- header end -->
 
         <!-- contetn start -->
@@ -59,5 +59,5 @@ Számunkra elsődleges az Ön elégedettsége, ezért szakembereink precízen, g
 <!-- content end -->
 
 <!-- footer start -->
-<?php require_once 'marginalia\footer.php';?>
+<?php require_once 'marginalia/footer.php';?>
 <!-- footer end -->

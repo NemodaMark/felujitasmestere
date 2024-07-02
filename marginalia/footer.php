@@ -73,6 +73,9 @@
           <li class="mb-2">
             <a href="services.php" class="text-white"><i class="fas fa-paw pe-3"></i>Szolgáltatásaink</a>
           </li>
+          <li class="mb-2">
+            <a href="homerenow2024.php" class="text-white"><i class="fas fa-paw pe-3"></i>Otthonfelújítási támogatás</a>
+          </li>
         </ul>
       </div>
       <!--Grid column-->

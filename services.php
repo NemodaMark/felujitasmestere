@@ -1,5 +1,5 @@
 <!-- header start -->
-<?php require_once 'marginalia\header.php';?>
+<?php require_once 'marginalia/header.php';?>
 <!-- header end -->
 
         <!-- contetn start -->
@@ -189,5 +189,5 @@
 <!-- content end -->
 
 <!-- footer start -->
-<?php require_once 'marginalia\footer.php';?>
+<?php require_once 'marginalia*footer.php';?>
 <!-- footer end -->

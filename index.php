@@ -1,5 +1,5 @@
 <!-- header start -->
-<?php require_once 'marginalia\header.php';?>
+<?php require_once 'marginalia/header.php';?>
 <!-- header end -->
 
 <!-- content start -->
@@ -44,6 +44,12 @@
                                     </h2>
                                     <div id="flush-collapseOne1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Teljes körű hideg- és melegburkolási szolgáltatásokat nyújtunk, beleértve a csempézést, járólapozást és parkettázást. A munkánkat precizitás és a legmagasabb minőségű anyagok használata jellemzi, hogy otthonod tartós és esztétikus legyen.</div>
+                                        <div class="row">
+                                            <img src="visual_assets/workphotos/floors/floor_29.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/floors/floor_6.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/floors/floor_9.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos//floors/floor_10.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- accord-item end -->
@@ -57,6 +63,12 @@
                                     </h2>
                                     <div id="flush-collapseTwo2" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Vállaljuk a falak, mennyezetek és egyéb felületek festését különböző technikákkal és stílusokkal, figyelembe véve az Ön egyedi igényeit és ízlését. Minőségi festékekkel dolgozunk, így biztosak vagyunk benne, hogy az eredmény hosszú távon is kifogástalan lesz.</div>
+                                        <div class="row">
+                                            <img src="visual_assets/workphotos/refferences/25.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/refferences/26.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/refferences/13.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/refferences/6.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- accord-item end -->
@@ -70,6 +82,12 @@
                                     </h2>
                                     <div id="flush-collapseThree3" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Professzionális mázolási szolgáltatásokat kínálunk nyílászárók, korlátok és egyéb fa vagy fém felületek kezelésére. A gondos előkészítéstől a végső simításokig, minden lépést nagy figyelemmel végzünk a tökéletes végeredmény érdekében.</div>
+                                        <div class="row">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_4.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_20.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/rooms/room_1.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/rooms/room_3.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- accord-item end -->
@@ -83,6 +101,12 @@
                                     </h2>
                                     <div id="flush-collapseFour4" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Vállaljuk a falak tapétázását széles választékú tapétákkal és burkolatokkal, amelyek egyedi stílust és karaktert adnak otthonodnak. Precíz munkavégzésünkkel garantáljuk a hibátlan és tartós eredményt.</div>
+                                        <div class="row">
+                                            <img src="visual_assets/workphotos/rooms/room_1.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/rooms/room_12.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/refferences/23.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_22.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- accord-item end -->
@@ -97,6 +121,12 @@
                                     </h2>
                                     <div id="flush-collapseFive5" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Kőműves szolgáltatásaink között szerepel a falazás, vakolás, alapozás és egyéb szerkezeti munkák. Tapasztalt szakembereink biztosítják a stabil és megbízható építési megoldásokat, amelyek hosszú távon is megállják a helyüket.</div>
+                                        <div class="row">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_21.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_20.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_12.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_11.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- accord-item end -->
@@ -130,6 +160,12 @@
                                     </h2>
                                     <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Teljes körű hideg- és melegburkolási szolgáltatásokat nyújtunk, beleértve a csempézést, járólapozást és parkettázást. A munkánkat precizitás és a legmagasabb minőségű anyagok használata jellemzi, hogy otthonod tartós és esztétikus legyen.</div>
+                                        <div class="row">
+                                            <img src="visual_assets/workphotos/floors/floor_29.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/floors/floor_6.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/floors/floor_9.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos//floors/floor_10.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- accord-item end -->
@@ -143,6 +179,12 @@
                                     </h2>
                                     <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Vállaljuk a falak, mennyezetek és egyéb felületek festését különböző technikákkal és stílusokkal, figyelembe véve az Ön egyedi igényeit és ízlését. Minőségi festékekkel dolgozunk, így biztosak vagyunk benne, hogy az eredmény hosszú távon is kifogástalan lesz.</div>
+                                        <div class="row">
+                                            <img src="visual_assets/workphotos/refferences/25.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/refferences/26.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/refferences/13.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/refferences/6.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- accord-item end -->
@@ -156,6 +198,12 @@
                                     </h2>
                                     <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Professzionális mázolási szolgáltatásokat kínálunk nyílászárók, korlátok és egyéb fa vagy fém felületek kezelésére. A gondos előkészítéstől a végső simításokig, minden lépést nagy figyelemmel végzünk a tökéletes végeredmény érdekében.</div>
+                                        <div class="row">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_4.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_20.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/rooms/room_1.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/rooms/room_3.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- accord-item end -->
@@ -169,6 +217,12 @@
                                     </h2>
                                     <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Vállaljuk a falak tapétázását széles választékú tapétákkal és burkolatokkal, amelyek egyedi stílust és karaktert adnak otthonodnak. Precíz munkavégzésünkkel garantáljuk a hibátlan és tartós eredményt.</div>
+                                        <div class="row">
+                                            <img src="visual_assets/workphotos/rooms/room_1.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/rooms/room_12.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/refferences/23.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_22.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- accord-item end -->
@@ -183,10 +237,13 @@
                                     </h2>
                                     <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
                                     <div class="accordion-body">Kőműves szolgáltatásaink között szerepel a falazás, vakolás, alapozás és egyéb szerkezeti munkák. Tapasztalt szakembereink biztosítják a stabil és megbízható építési megoldásokat, amelyek hosszú távon is megállják a helyüket.</div>
+                                        <div class="row">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_21.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_20.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_12.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                            <img src="visual_assets/workphotos/work_in_progress/work_in_progress_11.jpg" class="reff-x rounded mx-auto d-block mb-4" alt="...">
+                                        </div>
                                     </div>
-                                </div>
-                                <!-- accord-item end -->
-
                                 </div>
                             <!-- accord end -->
                         <br>
@@ -214,7 +271,7 @@
                     <div class="row">
                             <img src="visual_assets/workphotos/refferences/1.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
                             <img src="visual_assets/workphotos/refferences/2.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
-                            <img src="visual_assets/workphotos/refferences/3.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
+                            <img src="visual_assets/workphotos/refferences/13.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
                             <img src="visual_assets/workphotos/refferences/4.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
                             <img src="visual_assets/workphotos/refferences/5.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
                             <img src="visual_assets/workphotos/refferences/6.jpg" class="reff rounded mx-auto d-block mx-1 my-1" alt="...">
@@ -232,5 +289,5 @@
 <!-- content end -->
    
 <!-- footer start -->
-<?php require_once 'marginalia\footer.php';?>
+<?php require_once 'marginalia/footer.php';?>
 <!-- footer end -->
