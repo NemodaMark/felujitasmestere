@@ -1,0 +1,111 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    font-family: 'Segoe UI', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 80px 0;
+}
+
+#hero h1, #hero p {
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+}
+
+.bg-image {
+    filter: brightness(0.9);
+  }
+
+  .carousel-wrapper {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .carousel-track {
+    display: flex;
+    gap: 1rem;
+    animation: scroll-left 50s linear infinite;
+    align-items: center;
+    will-change: transform;
+    min-width: 200%; 
+  }
+  
+  .carousel-track img {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    flex-shrink: 0;
+    display: block;
+    transition: none !important;
+    backface-visibility: hidden;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  
+
+  .carousel-wrapper:hover .carousel-track {
+    animation-play-state: paused;
+  }  
+    
+  @keyframes scroll-left {
+    0% {
+      transform: translate3d(0, 0, 0);
+    }
+    100% {
+      transform: translate3d(-50%, 0, 0);
+    }
+  }
+  
+  .image-gallery img {
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  .image-gallery img:hover {
+    transform: scale(1.05);
+  }
+  .category-buttons button {
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card {
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  #galleryImages img {
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: transform 0.2s;
+  }
+  
+  #galleryImages img:hover {
+    transform: scale(1.03);
+  }
+  
+  .modal-header .btn-close {
+    background-color: white;
+    border-radius: 50%;
+    opacity: 1;
+    filter: drop-shadow(0 0 3px black);
+    padding: 0.5rem;
+    width: 2rem;
+    height: 2rem;
+  }
+  

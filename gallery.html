@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Referenciáink - Felújítás Mestere</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Felújítás Mestere</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html#services">Szolgáltatások</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#refferences">Munkáink</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#about">Rólunk</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#grant">Támogatás</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact">Kapcsolat</a></li>
+          <li class="nav-item"><a class="nav-link active" href="gallery.html">Galéria</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="text-center mt-4">
+    <h2><strong>Referenciáink</strong></h2>
+    <p>Válassz egy kategóriát, és nézd meg a hozzá tartozó munkáinkat!</p>
+    <small class="text-muted">A mappa képeit lejebb tekerve megtalálod</small>
+  </header>
+
+  <!-- CATEGORY CONTAINER -->
+  <section id="category-container" class="container my-5">
+    <div id="categoryCards" class="row g-3 justify-content-center"></div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="container mb-5">
+    <div class="row g-3" id="galleryImages"></div>
+  </section>
+
+  <!-- MODAL -->
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content bg-transparent border-0">
+        <div class="modal-body text-center position-relative">
+          <img id="modalImage" src="#" class="img-fluid rounded shadow" alt="Teljes kép">
+          <button type="button" class="btn btn-light position-absolute top-0 end-0 m-2" data-bs-dismiss="modal" aria-label="Bezárás">&times;</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="bg-dark text-white pt-4 pb-3 mt-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+          <h5 class="fw-bold mb-0">Felújítás Mestere</h5>
+          <small class="text-white-50">© 2025 Minden jog fenntartva</small>
+        </div>
+        <div class="col-md-4 text-center mb-3 mb-md-0">
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item"><a href="index.html#services" class="text-white text-decoration-none small">Szolgáltatások</a></li>
+            <li class="list-inline-item"><a href="index.html#refferences" class="text-white text-decoration-none small">Munkáink</a></li>
+            <li class="list-inline-item"><a href="index.html#about" class="text-white text-decoration-none small">Rólunk</a></li>
+            <li class="list-inline-item"><a href="index.html#grant" class="text-white text-decoration-none small">Támogatás</a></li>
+            <li class="list-inline-item"><a href="index.html#contact" class="text-white text-decoration-none small">Kapcsolat</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4 text-center text-md-end">
+          <small class="d-block"><i class="bi bi-telephone me-2"></i><a href="tel:06304434011" class="text-white text-decoration-none">06 30 443 4011</a></small>
+          <small class="d-block"><i class="bi bi-envelope me-2"></i><a href="mailto:gyulaa.hendre@gmail.com" class="text-white text-decoration-none">gyulaa.hendre@gmail.com</a></small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/galleryLoader.js"></script>
+</body>
+</html>
